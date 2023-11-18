@@ -1,0 +1,55 @@
+/* Kazan */
+.kazan {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    height: 255px;
+    background: linear-gradient(230deg, #F86486 32.28%, rgba(241, 61, 104, 0.00) 126.45%);
+}
+
+.kazantext {
+    margin: 0 auto;
+
+    padding: 55px;
+    border: 5px solid rgb(82, 80, 80);
+    border-radius: 5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    background: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    box-shadow: 12px 5px 31px -11px rgba(238, 98, 210, 1.35);
+}
+
+@media (max-width: 635px) {
+    .kazantext {
+        padding: 32px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 470px) {
+    .kazantext {
+        padding: 20px;
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 380px) {
+    .kazantext {
+        padding: 20px;
+        font-size: 23px;
+    }
+
+    .kazan {
+        padding: 0 15px;
+        height: 212px;
+    }
+} 

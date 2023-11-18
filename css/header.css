@@ -1,0 +1,168 @@
+.header {
+    height: 757px;
+    background: linear-gradient(230deg, #F86486 32.28%, rgba(241, 61, 104, 0.00) 126.45%);
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 0 51px;
+}
+
+.container__logo {
+    position: relative;
+    width: 39px;
+    height: 38px;
+    border-radius: 15px;
+    background: #E71F4D;
+
+    box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    position: absolute;
+    transform: translate(5px, 4px);
+}
+
+.header__ul {
+    display: flex;
+}
+
+.header__ul li + li {
+    margin-left: 30px;
+}
+
+a .header__li {
+    display: inline-block;
+    background: #eba851;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.header__li:hover {
+    color: #e9e3e4;
+}
+
+.header__content {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__content--title {
+}
+
+.main__title {
+    color: #FFF;
+    padding-top: 128px;
+    margin-bottom: 24px;
+    /* Заголовок h1 */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    max-width: 536px;
+    flex-shrink: 0;
+}
+
+.header__content--text {
+    max-width: 352px;
+    margin-bottom: 24px;
+    height: 114px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.choose-cake--btn {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(231, 31, 77, 0.96) 42.69%, rgba(231, 31, 77, 0.00) 159.76%);
+
+
+}
+
+.header__main--img img {
+    border-radius: 50%;
+    height: 476px;
+}
+
+
+@media (max-width: 824px) {
+    .header {
+        height: 100%;
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header__main--img {
+        text-align: center;
+        border-radius: 50%;
+        height: 476px;
+    }
+
+    .main__title {
+        padding-top: 27px;
+    }
+
+    .header__main--img {
+        height: 511px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .header__nav {
+        padding: 18px 0 34px;
+    }
+
+    .main__title {
+        padding-top: 29px;
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        max-width: 536px;
+    }
+
+    .choose-cake--btn {
+        width: 147px;
+        height: 42px;
+    }
+
+    .header__main--img img {
+        width: 324px;
+        height: 324px;
+    }
+
+    .header__main--img {
+        height: 362px;
+    }
+    
+}
+
+@media (max-width: 330px) {
+    .header__nav {
+        padding: 16px 0 19px;
+    }
+}
+

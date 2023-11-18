@@ -1,0 +1,38 @@
+.footer div {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    background: linear-gradient(230deg, #F86486 32.28%, rgba(241, 61, 104, 0.00) 126.45%);;
+}
+
+.logo-link {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.footer-logo {
+    margin: 20px 0 0 35px;
+}
+
+
+@media (max-width: 355px) {
+    .footer div {
+        display: flex;
+        padding: 0px 0;
+        flex-direction: column;
+    }
+
+    .footer-list{
+        justify-content: space-between;
+        flex-direction: row;
+        margin-right: 30px;
+        gap: 20px;
+    }
+}
